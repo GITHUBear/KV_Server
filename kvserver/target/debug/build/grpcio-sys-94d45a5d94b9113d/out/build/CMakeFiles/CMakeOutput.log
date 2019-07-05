@@ -1,0 +1,2776 @@
+The system is: Darwin - 18.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: ;-stdlib=libc++;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5d8c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a5d8c.dir/build.make CMakeFiles/cmTC_a5d8c.dir/build
+Building C object CMakeFiles/cmTC_a5d8c.dir/testCCompiler.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a5d8c.dir/testCCompiler.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a5d8c
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d8c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a5d8c.dir/testCCompiler.c.o  -o cmTC_a5d8c 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df791/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df791.dir/build.make CMakeFiles/cmTC_df791.dir/build
+Building C object CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_df791
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df791.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o  -o cmTC_df791 
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_df791 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 02:04:28 Aug 14 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df791/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df791.dir/build.make CMakeFiles/cmTC_df791.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_df791]
+  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df791.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o  -o cmTC_df791 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.2)]
+  ignore line: [Target: x86_64-apple-darwin18.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_df791 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_df791] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_df791.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76ac4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_76ac4.dir/build.make CMakeFiles/cmTC_76ac4.dir/build
+Building C object CMakeFiles/cmTC_76ac4.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_76ac4.dir/feature_tests.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_76ac4
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76ac4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76ac4.dir/feature_tests.c.o  -o cmTC_76ac4 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39620/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_39620.dir/build.make CMakeFiles/cmTC_39620.dir/build
+Building C object CMakeFiles/cmTC_39620.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_39620.dir/feature_tests.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39620
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39620.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_39620.dir/feature_tests.c.o  -o cmTC_39620 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45acd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45acd.dir/build.make CMakeFiles/cmTC_45acd.dir/build
+Building C object CMakeFiles/cmTC_45acd.dir/feature_tests.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_45acd.dir/feature_tests.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_45acd
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45acd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45acd.dir/feature_tests.c.o  -o cmTC_45acd 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17fa0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_17fa0.dir/build.make CMakeFiles/cmTC_17fa0.dir/build
+Building CXX object CMakeFiles/cmTC_17fa0.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_17fa0.dir/testCXXCompiler.cxx.o -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_17fa0
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fa0.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_17fa0.dir/testCXXCompiler.cxx.o  -o cmTC_17fa0 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cb73/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2cb73.dir/build.make CMakeFiles/cmTC_2cb73.dir/build
+Building CXX object CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2cb73
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cb73.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2cb73 
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_2cb73 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 02:04:28 Aug 14 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2cb73/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2cb73.dir/build.make CMakeFiles/cmTC_2cb73.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2cb73]
+  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cb73.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2cb73 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.2)]
+  ignore line: [Target: x86_64-apple-darwin18.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_2cb73 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2cb73] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_2cb73.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db330/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_db330.dir/build.make CMakeFiles/cmTC_db330.dir/build
+Building CXX object CMakeFiles/cmTC_db330.dir/feature_tests.cxx.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_db330.dir/feature_tests.cxx.o -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db330
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db330.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db330.dir/feature_tests.cxx.o  -o cmTC_db330 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84451/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_84451.dir/build.make CMakeFiles/cmTC_84451.dir/build
+Building CXX object CMakeFiles/cmTC_84451.dir/feature_tests.cxx.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_84451.dir/feature_tests.cxx.o -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_84451
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84451.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_84451.dir/feature_tests.cxx.o  -o cmTC_84451 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42686/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_42686.dir/build.make CMakeFiles/cmTC_42686.dir/build
+Building CXX object CMakeFiles/cmTC_42686.dir/feature_tests.cxx.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_42686.dir/feature_tests.cxx.o -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_42686
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42686.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42686.dir/feature_tests.cxx.o  -o cmTC_42686 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a8b3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a8b3.dir/build.make CMakeFiles/cmTC_3a8b3.dir/build
+Building CXX object CMakeFiles/cmTC_3a8b3.dir/feature_tests.cxx.o
+/usr/bin/c++    -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_3a8b3.dir/feature_tests.cxx.o -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3a8b3
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8b3.dir/link.txt --verbose=1
+/usr/bin/c++   -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a8b3.dir/feature_tests.cxx.o  -o cmTC_3a8b3 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a69b5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a69b5.dir/build.make CMakeFiles/cmTC_a69b5.dir/build
+Building C object CMakeFiles/cmTC_a69b5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_a69b5.dir/CheckIncludeFile.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a69b5
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a69b5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a69b5.dir/CheckIncludeFile.c.o  -o cmTC_a69b5 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea41b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ea41b.dir/build.make CMakeFiles/cmTC_ea41b.dir/build
+Building C object CMakeFiles/cmTC_ea41b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ea41b.dir/CheckIncludeFile.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ea41b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea41b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ea41b.dir/CheckIncludeFile.c.o  -o cmTC_ea41b 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be6a2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_be6a2.dir/build.make CMakeFiles/cmTC_be6a2.dir/build
+Building C object CMakeFiles/cmTC_be6a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_be6a2.dir/CheckIncludeFile.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be6a2
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6a2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_be6a2.dir/CheckIncludeFile.c.o  -o cmTC_be6a2 
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec3f5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec3f5.dir/build.make CMakeFiles/cmTC_ec3f5.dir/build
+Building C object CMakeFiles/cmTC_ec3f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ec3f5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec3f5
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec3f5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec3f5.dir/CheckFunctionExists.c.o  -o cmTC_ec3f5 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d56e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4d56e.dir/build.make CMakeFiles/cmTC_4d56e.dir/build
+Building C object CMakeFiles/cmTC_4d56e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_4d56e.dir/CheckIncludeFile.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4d56e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d56e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4d56e.dir/CheckIncludeFile.c.o  -o cmTC_4d56e 
+
+
+Determining if the function res_servicename exists in the resolv passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecb3f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ecb3f.dir/build.make CMakeFiles/cmTC_ecb3f.dir/build
+Building C object CMakeFiles/cmTC_ecb3f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=res_servicename -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ecb3f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ecb3f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecb3f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=res_servicename -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ecb3f.dir/CheckFunctionExists.c.o  -o cmTC_ecb3f -lresolv 
+
+
+Performing C SOURCE FILE Test MACOS_V1012 succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6e21/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d6e21.dir/build.make CMakeFiles/cmTC_d6e21.dir/build
+Building C object CMakeFiles/cmTC_d6e21.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DMACOS_V1012 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d6e21.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6e21
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e21.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DMACOS_V1012 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d6e21.dir/src.c.o  -o cmTC_d6e21 
+
+Source file was:
+
+#include <stdio.h>
+#include <AvailabilityMacros.h>
+#ifndef MAC_OS_X_VERSION_10_12
+#  define MAC_OS_X_VERSION_10_12 101200
+#endif
+	int main() {
+#if MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_12
+#  error Not MacOSX 10.12 or higher
+#endif
+return 0;
+	}
+	
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab269/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab269.dir/build.make CMakeFiles/cmTC_ab269.dir/build
+Building C object CMakeFiles/cmTC_ab269.dir/HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ab269.dir/HAVE_SYS_SOCKET_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKET_H.c
+Linking C executable cmTC_ab269
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab269.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab269.dir/HAVE_SYS_SOCKET_H.c.o  -o cmTC_ab269 
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43a08/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_43a08.dir/build.make CMakeFiles/cmTC_43a08.dir/build
+Building C object CMakeFiles/cmTC_43a08.dir/HAVE_ARPA_INET_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_43a08.dir/HAVE_ARPA_INET_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_INET_H.c
+Linking C executable cmTC_43a08
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a08.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43a08.dir/HAVE_ARPA_INET_H.c.o  -o cmTC_43a08 
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10efc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10efc.dir/build.make CMakeFiles/cmTC_10efc.dir/build
+Building C object CMakeFiles/cmTC_10efc.dir/HAVE_ARPA_NAMESER_COMPAT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_10efc.dir/HAVE_ARPA_NAMESER_COMPAT_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_NAMESER_COMPAT_H.c
+Linking C executable cmTC_10efc
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10efc.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10efc.dir/HAVE_ARPA_NAMESER_COMPAT_H.c.o  -o cmTC_10efc 
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1353b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1353b.dir/build.make CMakeFiles/cmTC_1353b.dir/build
+Building C object CMakeFiles/cmTC_1353b.dir/HAVE_ARPA_NAMESER_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1353b.dir/HAVE_ARPA_NAMESER_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_NAMESER_H.c
+Linking C executable cmTC_1353b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1353b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1353b.dir/HAVE_ARPA_NAMESER_H.c.o  -o cmTC_1353b 
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f64c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2f64c.dir/build.make CMakeFiles/cmTC_2f64c.dir/build
+Building C object CMakeFiles/cmTC_2f64c.dir/HAVE_ASSERT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2f64c.dir/HAVE_ASSERT_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ASSERT_H.c
+Linking C executable cmTC_2f64c
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f64c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f64c.dir/HAVE_ASSERT_H.c.o  -o cmTC_2f64c 
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2c62/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2c62.dir/build.make CMakeFiles/cmTC_e2c62.dir/build
+Building C object CMakeFiles/cmTC_e2c62.dir/HAVE_ERRNO_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e2c62.dir/HAVE_ERRNO_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_ERRNO_H.c
+Linking C executable cmTC_e2c62
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c62.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2c62.dir/HAVE_ERRNO_H.c.o  -o cmTC_e2c62 
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd15f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd15f.dir/build.make CMakeFiles/cmTC_fd15f.dir/build
+Building C object CMakeFiles/cmTC_fd15f.dir/HAVE_FCNTL_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_fd15f.dir/HAVE_FCNTL_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_FCNTL_H.c
+Linking C executable cmTC_fd15f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd15f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd15f.dir/HAVE_FCNTL_H.c.o  -o cmTC_fd15f 
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51c68/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51c68.dir/build.make CMakeFiles/cmTC_51c68.dir/build
+Building C object CMakeFiles/cmTC_51c68.dir/HAVE_INTTYPES_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_51c68.dir/HAVE_INTTYPES_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+Linking C executable cmTC_51c68
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51c68.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51c68.dir/HAVE_INTTYPES_H.c.o  -o cmTC_51c68 
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b6e6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b6e6.dir/build.make CMakeFiles/cmTC_7b6e6.dir/build
+Building C object CMakeFiles/cmTC_7b6e6.dir/HAVE_LIMITS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_7b6e6.dir/HAVE_LIMITS_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_LIMITS_H.c
+Linking C executable cmTC_7b6e6
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b6e6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b6e6.dir/HAVE_LIMITS_H.c.o  -o cmTC_7b6e6 
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9140a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9140a.dir/build.make CMakeFiles/cmTC_9140a.dir/build
+Building C object CMakeFiles/cmTC_9140a.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_9140a.dir/HAVE_MEMORY_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
+Linking C executable cmTC_9140a
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9140a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9140a.dir/HAVE_MEMORY_H.c.o  -o cmTC_9140a 
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_245c4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_245c4.dir/build.make CMakeFiles/cmTC_245c4.dir/build
+Building C object CMakeFiles/cmTC_245c4.dir/HAVE_NETDB_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_245c4.dir/HAVE_NETDB_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_NETDB_H.c
+Linking C executable cmTC_245c4
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_245c4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_245c4.dir/HAVE_NETDB_H.c.o  -o cmTC_245c4 
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8527/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8527.dir/build.make CMakeFiles/cmTC_c8527.dir/build
+Building C object CMakeFiles/cmTC_c8527.dir/HAVE_NETINET_IN_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c8527.dir/HAVE_NETINET_IN_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_IN_H.c
+Linking C executable cmTC_c8527
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8527.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8527.dir/HAVE_NETINET_IN_H.c.o  -o cmTC_c8527 
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99ae0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_99ae0.dir/build.make CMakeFiles/cmTC_99ae0.dir/build
+Building C object CMakeFiles/cmTC_99ae0.dir/HAVE_NETINET_TCP_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_99ae0.dir/HAVE_NETINET_TCP_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_TCP_H.c
+Linking C executable cmTC_99ae0
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99ae0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_99ae0.dir/HAVE_NETINET_TCP_H.c.o  -o cmTC_99ae0 
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5baaa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5baaa.dir/build.make CMakeFiles/cmTC_5baaa.dir/build
+Building C object CMakeFiles/cmTC_5baaa.dir/HAVE_NET_IF_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5baaa.dir/HAVE_NET_IF_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_NET_IF_H.c
+Linking C executable cmTC_5baaa
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5baaa.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5baaa.dir/HAVE_NET_IF_H.c.o  -o cmTC_5baaa 
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7688/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b7688.dir/build.make CMakeFiles/cmTC_b7688.dir/build
+Building C object CMakeFiles/cmTC_b7688.dir/HAVE_SIGNAL_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b7688.dir/HAVE_SIGNAL_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SIGNAL_H.c
+Linking C executable cmTC_b7688
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7688.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b7688.dir/HAVE_SIGNAL_H.c.o  -o cmTC_b7688 
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c2ae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7c2ae.dir/build.make CMakeFiles/cmTC_7c2ae.dir/build
+Building C object CMakeFiles/cmTC_7c2ae.dir/HAVE_STDBOOL_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_7c2ae.dir/HAVE_STDBOOL_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+Linking C executable cmTC_7c2ae
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2ae.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c2ae.dir/HAVE_STDBOOL_H.c.o  -o cmTC_7c2ae 
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_334f9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_334f9.dir/build.make CMakeFiles/cmTC_334f9.dir/build
+Building C object CMakeFiles/cmTC_334f9.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_334f9.dir/HAVE_STDLIB_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_334f9
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_334f9.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_334f9.dir/HAVE_STDLIB_H.c.o  -o cmTC_334f9 
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1dbc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1dbc.dir/build.make CMakeFiles/cmTC_d1dbc.dir/build
+Building C object CMakeFiles/cmTC_d1dbc.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d1dbc.dir/HAVE_STRINGS_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_d1dbc
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1dbc.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1dbc.dir/HAVE_STRINGS_H.c.o  -o cmTC_d1dbc 
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf22/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3bf22.dir/build.make CMakeFiles/cmTC_3bf22.dir/build
+Building C object CMakeFiles/cmTC_3bf22.dir/HAVE_STRING_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_3bf22.dir/HAVE_STRING_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_3bf22
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf22.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3bf22.dir/HAVE_STRING_H.c.o  -o cmTC_3bf22 
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da51b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da51b.dir/build.make CMakeFiles/cmTC_da51b.dir/build
+Building C object CMakeFiles/cmTC_da51b.dir/HAVE_SYS_IOCTL_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_da51b.dir/HAVE_SYS_IOCTL_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+Linking C executable cmTC_da51b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da51b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da51b.dir/HAVE_SYS_IOCTL_H.c.o  -o cmTC_da51b 
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_762c9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_762c9.dir/build.make CMakeFiles/cmTC_762c9.dir/build
+Building C object CMakeFiles/cmTC_762c9.dir/HAVE_SYS_PARAM_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_762c9.dir/HAVE_SYS_PARAM_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PARAM_H.c
+Linking C executable cmTC_762c9
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762c9.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_762c9.dir/HAVE_SYS_PARAM_H.c.o  -o cmTC_762c9 
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5abfd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5abfd.dir/build.make CMakeFiles/cmTC_5abfd.dir/build
+Building C object CMakeFiles/cmTC_5abfd.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5abfd.dir/HAVE_SYS_SELECT_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+Linking C executable cmTC_5abfd
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5abfd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5abfd.dir/HAVE_SYS_SELECT_H.c.o  -o cmTC_5abfd 
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ceb99/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ceb99.dir/build.make CMakeFiles/cmTC_ceb99.dir/build
+Building C object CMakeFiles/cmTC_ceb99.dir/HAVE_SYS_STAT_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ceb99.dir/HAVE_SYS_STAT_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
+Linking C executable cmTC_ceb99
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb99.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ceb99.dir/HAVE_SYS_STAT_H.c.o  -o cmTC_ceb99 
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e7ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e7ab.dir/build.make CMakeFiles/cmTC_8e7ab.dir/build
+Building C object CMakeFiles/cmTC_8e7ab.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_8e7ab.dir/HAVE_SYS_TIME_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_8e7ab
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e7ab.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e7ab.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_8e7ab 
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a251/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5a251.dir/build.make CMakeFiles/cmTC_5a251.dir/build
+Building C object CMakeFiles/cmTC_5a251.dir/HAVE_SYS_UIO_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5a251.dir/HAVE_SYS_UIO_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
+Linking C executable cmTC_5a251
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a251.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5a251.dir/HAVE_SYS_UIO_H.c.o  -o cmTC_5a251 
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c2a8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7c2a8.dir/build.make CMakeFiles/cmTC_7c2a8.dir/build
+Building C object CMakeFiles/cmTC_7c2a8.dir/HAVE_TIME_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_7c2a8.dir/HAVE_TIME_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_7c2a8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2a8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c2a8.dir/HAVE_TIME_H.c.o  -o cmTC_7c2a8 
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c6b8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6c6b8.dir/build.make CMakeFiles/cmTC_6c6b8.dir/build
+Building C object CMakeFiles/cmTC_6c6b8.dir/HAVE_DLFCN_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_6c6b8.dir/HAVE_DLFCN_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
+Linking C executable cmTC_6c6b8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c6b8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6c6b8.dir/HAVE_DLFCN_H.c.o  -o cmTC_6c6b8 
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1eb39/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1eb39.dir/build.make CMakeFiles/cmTC_1eb39.dir/build
+Building C object CMakeFiles/cmTC_1eb39.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1eb39.dir/HAVE_UNISTD_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_1eb39
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eb39.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1eb39.dir/HAVE_UNISTD_H.c.o  -o cmTC_1eb39 
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_064e7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_064e7.dir/build.make CMakeFiles/cmTC_064e7.dir/build
+Building C object CMakeFiles/cmTC_064e7.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SOCKLEN_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_064e7.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_064e7
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_064e7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SOCKLEN_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_064e7.dir/src.c.o  -o cmTC_064e7 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c888e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c888e.dir/build.make CMakeFiles/cmTC_c888e.dir/build
+Building C object CMakeFiles/cmTC_c888e.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_BOOL_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c888e.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c888e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c888e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_BOOL_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c888e.dir/src.c.o  -o cmTC_c888e -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74d2f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_74d2f.dir/build.make CMakeFiles/cmTC_74d2f.dir/build
+Building C object CMakeFiles/cmTC_74d2f.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSIZE_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_74d2f.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_74d2f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74d2f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSIZE_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74d2f.dir/src.c.o  -o cmTC_74d2f -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3a57/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f3a57.dir/build.make CMakeFiles/cmTC_f3a57.dir/build
+Building C object CMakeFiles/cmTC_f3a57.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_LONGLONG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f3a57.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f3a57
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a57.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_LONGLONG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f3a57.dir/src.c.o  -o cmTC_f3a57 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ee26/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ee26.dir/build.make CMakeFiles/cmTC_5ee26.dir/build
+Building C object CMakeFiles/cmTC_5ee26.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SIG_ATOMIC_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5ee26.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5ee26
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee26.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SIG_ATOMIC_T -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5ee26.dir/src.c.o  -o cmTC_5ee26 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b338e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b338e.dir/build.make CMakeFiles/cmTC_b338e.dir/build
+Building C object CMakeFiles/cmTC_b338e.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_ADDRINFO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b338e.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b338e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b338e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_ADDRINFO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b338e.dir/src.c.o  -o cmTC_b338e -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a8e2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8a8e2.dir/build.make CMakeFiles/cmTC_8a8e2.dir/build
+Building C object CMakeFiles/cmTC_8a8e2.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_IN6_ADDR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_8a8e2.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a8e2
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a8e2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_IN6_ADDR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8a8e2.dir/src.c.o  -o cmTC_8a8e2 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72c64/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72c64.dir/build.make CMakeFiles/cmTC_72c64.dir/build
+Building C object CMakeFiles/cmTC_72c64.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_SOCKADDR_IN6 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_72c64.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72c64
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c64.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_SOCKADDR_IN6 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72c64.dir/src.c.o  -o cmTC_72c64 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9bff/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c9bff.dir/build.make CMakeFiles/cmTC_c9bff.dir/build
+Building C object CMakeFiles/cmTC_c9bff.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_SOCKADDR_STORAGE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c9bff.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c9bff
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9bff.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_SOCKADDR_STORAGE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c9bff.dir/src.c.o  -o cmTC_c9bff -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e39f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e39f8.dir/build.make CMakeFiles/cmTC_e39f8.dir/build
+Building C object CMakeFiles/cmTC_e39f8.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_TIMEVAL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e39f8.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e39f8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e39f8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_STRUCT_TIMEVAL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e39f8.dir/src.c.o  -o cmTC_e39f8 -lresolv 
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9b98/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9b98.dir/build.make CMakeFiles/cmTC_f9b98.dir/build
+Building C object CMakeFiles/cmTC_f9b98.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f9b98.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9b98
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9b98.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9b98.dir/CheckSymbolExists.c.o  -o cmTC_f9b98 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b43b8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b43b8.dir/build.make CMakeFiles/cmTC_b43b8.dir/build
+Building C object CMakeFiles/cmTC_b43b8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b43b8.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b43b8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b43b8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b43b8.dir/CheckSymbolExists.c.o  -o cmTC_b43b8 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b356f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b356f.dir/build.make CMakeFiles/cmTC_b356f.dir/build
+Building C object CMakeFiles/cmTC_b356f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b356f.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b356f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b356f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b356f.dir/CheckSymbolExists.c.o  -o cmTC_b356f -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abe4e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_abe4e.dir/build.make CMakeFiles/cmTC_abe4e.dir/build
+Building C object CMakeFiles/cmTC_abe4e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_abe4e.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_abe4e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe4e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_abe4e.dir/CheckSymbolExists.c.o  -o cmTC_abe4e -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b3c0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b3c0.dir/build.make CMakeFiles/cmTC_3b3c0.dir/build
+Building C object CMakeFiles/cmTC_3b3c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_3b3c0.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3b3c0
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b3c0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b3c0.dir/CheckSymbolExists.c.o  -o cmTC_3b3c0 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffa67/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ffa67.dir/build.make CMakeFiles/cmTC_ffa67.dir/build
+Building C object CMakeFiles/cmTC_ffa67.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ffa67.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ffa67
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa67.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ffa67.dir/CheckSymbolExists.c.o  -o cmTC_ffa67 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfd22/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cfd22.dir/build.make CMakeFiles/cmTC_cfd22.dir/build
+Building C object CMakeFiles/cmTC_cfd22.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_cfd22.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cfd22
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd22.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cfd22.dir/src.c.o  -o cmTC_cfd22 -lresolv 
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6f58/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6f58.dir/build.make CMakeFiles/cmTC_e6f58.dir/build
+Building C object CMakeFiles/cmTC_e6f58.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_LL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e6f58.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6f58
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6f58.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_LL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6f58.dir/src.c.o  -o cmTC_e6f58 -lresolv 
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e233/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3e233.dir/build.make CMakeFiles/cmTC_3e233.dir/build
+Building C object CMakeFiles/cmTC_3e233.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_3e233.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3e233
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e233.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e233.dir/CheckSymbolExists.c.o  -o cmTC_3e233 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22d64/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_22d64.dir/build.make CMakeFiles/cmTC_22d64.dir/build
+Building C object CMakeFiles/cmTC_22d64.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_22d64.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_22d64
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22d64.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22d64.dir/CheckSymbolExists.c.o  -o cmTC_22d64 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79dc8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_79dc8.dir/build.make CMakeFiles/cmTC_79dc8.dir/build
+Building C object CMakeFiles/cmTC_79dc8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_79dc8.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_79dc8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79dc8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_79dc8.dir/CheckSymbolExists.c.o  -o cmTC_79dc8 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b010/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b010.dir/build.make CMakeFiles/cmTC_5b010.dir/build
+Building C object CMakeFiles/cmTC_5b010.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5b010.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b010
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b010.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b010.dir/CheckSymbolExists.c.o  -o cmTC_5b010 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f250f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f250f.dir/build.make CMakeFiles/cmTC_f250f.dir/build
+Building C object CMakeFiles/cmTC_f250f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f250f.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f250f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f250f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f250f.dir/CheckSymbolExists.c.o  -o cmTC_f250f -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ab33/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ab33.dir/build.make CMakeFiles/cmTC_2ab33.dir/build
+Building C object CMakeFiles/cmTC_2ab33.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2ab33.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ab33
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab33.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ab33.dir/CheckSymbolExists.c.o  -o cmTC_2ab33 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2420/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2420.dir/build.make CMakeFiles/cmTC_b2420.dir/build
+Building C object CMakeFiles/cmTC_b2420.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b2420.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b2420
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2420.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b2420.dir/CheckSymbolExists.c.o  -o cmTC_b2420 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abd4b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_abd4b.dir/build.make CMakeFiles/cmTC_abd4b.dir/build
+Building C object CMakeFiles/cmTC_abd4b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_abd4b.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_abd4b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd4b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_abd4b.dir/CheckSymbolExists.c.o  -o cmTC_abd4b -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35b71/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_35b71.dir/build.make CMakeFiles/cmTC_35b71.dir/build
+Building C object CMakeFiles/cmTC_35b71.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_35b71.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_35b71
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35b71.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35b71.dir/CheckSymbolExists.c.o  -o cmTC_35b71 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d6a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75d6a.dir/build.make CMakeFiles/cmTC_75d6a.dir/build
+Building C object CMakeFiles/cmTC_75d6a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_75d6a.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_75d6a
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d6a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75d6a.dir/CheckSymbolExists.c.o  -o cmTC_75d6a -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3628f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3628f.dir/build.make CMakeFiles/cmTC_3628f.dir/build
+Building C object CMakeFiles/cmTC_3628f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_3628f.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3628f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3628f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3628f.dir/CheckSymbolExists.c.o  -o cmTC_3628f -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53d1f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53d1f.dir/build.make CMakeFiles/cmTC_53d1f.dir/build
+Building C object CMakeFiles/cmTC_53d1f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_53d1f.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53d1f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d1f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_53d1f.dir/CheckSymbolExists.c.o  -o cmTC_53d1f -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cba0e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cba0e.dir/build.make CMakeFiles/cmTC_cba0e.dir/build
+Building C object CMakeFiles/cmTC_cba0e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_cba0e.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cba0e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba0e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cba0e.dir/CheckSymbolExists.c.o  -o cmTC_cba0e -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac9cf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac9cf.dir/build.make CMakeFiles/cmTC_ac9cf.dir/build
+Building C object CMakeFiles/cmTC_ac9cf.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ac9cf.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ac9cf
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9cf.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac9cf.dir/CheckSymbolExists.c.o  -o cmTC_ac9cf -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc295/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc295.dir/build.make CMakeFiles/cmTC_bc295.dir/build
+Building C object CMakeFiles/cmTC_bc295.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_bc295.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bc295
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc295.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc295.dir/CheckSymbolExists.c.o  -o cmTC_bc295 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recv exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_770d3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_770d3.dir/build.make CMakeFiles/cmTC_770d3.dir/build
+Building C object CMakeFiles/cmTC_770d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_770d3.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_770d3
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770d3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_770d3.dir/CheckSymbolExists.c.o  -o cmTC_770d3 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ab80/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ab80.dir/build.make CMakeFiles/cmTC_2ab80.dir/build
+Building C object CMakeFiles/cmTC_2ab80.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2ab80.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ab80
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab80.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ab80.dir/CheckSymbolExists.c.o  -o cmTC_2ab80 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the send exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce1e3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce1e3.dir/build.make CMakeFiles/cmTC_ce1e3.dir/build
+Building C object CMakeFiles/cmTC_ce1e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ce1e3.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce1e3
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce1e3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce1e3.dir/CheckSymbolExists.c.o  -o cmTC_ce1e3 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56d83/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_56d83.dir/build.make CMakeFiles/cmTC_56d83.dir/build
+Building C object CMakeFiles/cmTC_56d83.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_56d83.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_56d83
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d83.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56d83.dir/CheckSymbolExists.c.o  -o cmTC_56d83 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d8ea/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8d8ea.dir/build.make CMakeFiles/cmTC_8d8ea.dir/build
+Building C object CMakeFiles/cmTC_8d8ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_8d8ea.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8d8ea
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d8ea.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d8ea.dir/CheckSymbolExists.c.o  -o cmTC_8d8ea -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3009/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3009.dir/build.make CMakeFiles/cmTC_c3009.dir/build
+Building C object CMakeFiles/cmTC_c3009.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c3009.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c3009
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3009.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3009.dir/CheckSymbolExists.c.o  -o cmTC_c3009 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6149/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f6149.dir/build.make CMakeFiles/cmTC_f6149.dir/build
+Building C object CMakeFiles/cmTC_f6149.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f6149.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f6149
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6149.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f6149.dir/CheckSymbolExists.c.o  -o cmTC_f6149 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c12c7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c12c7.dir/build.make CMakeFiles/cmTC_c12c7.dir/build
+Building C object CMakeFiles/cmTC_c12c7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c12c7.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c12c7
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c12c7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c12c7.dir/CheckSymbolExists.c.o  -o cmTC_c12c7 -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f804d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f804d.dir/build.make CMakeFiles/cmTC_f804d.dir/build
+Building C object CMakeFiles/cmTC_f804d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f804d.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f804d
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f804d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f804d.dir/CheckSymbolExists.c.o  -o cmTC_f804d -lresolv 
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

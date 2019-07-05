@@ -1,0 +1,975 @@
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ca3b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ca3b.dir/build.make CMakeFiles/cmTC_2ca3b.dir/build
+Building C object CMakeFiles/cmTC_2ca3b.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2ca3b.dir/OFF64_T.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_2ca3b.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_2ca3b/fast] Error 2
+
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test IOS failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f753/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2f753.dir/build.make CMakeFiles/cmTC_2f753.dir/build
+Building C object CMakeFiles/cmTC_2f753.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DIOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2f753.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c:6:2: error: Not an iPhone target
+#error Not an iPhone target
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2f753.dir/src.c.o] Error 1
+make: *** [cmTC_2f753/fast] Error 2
+
+Source file was:
+
+	#include <stdio.h>
+	#include <TargetConditionals.h>
+	int main() {
+#if TARGET_OS_IPHONE == 0
+#error Not an iPhone target
+#endif
+return 0;
+	}
+	
+Performing C SOURCE FILE Test IOS_V10 failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72730/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72730.dir/build.make CMakeFiles/cmTC_72730.dir/build
+Building C object CMakeFiles/cmTC_72730.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DIOS_V10 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_72730.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c:6:4: error: Not iOS v10
+#  error Not iOS v10
+   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_72730.dir/src.c.o] Error 1
+make: *** [cmTC_72730/fast] Error 2
+
+Source file was:
+
+#include <stdio.h>
+#include <TargetConditionals.h>
+	int main() {
+#if TARGET_OS_IPHONE == 0 || __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
+#  error Not iOS v10
+#endif
+return 0;
+	}
+	
+Determining if the function gethostbyname exists in the nsl failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af16d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_af16d.dir/build.make CMakeFiles/cmTC_af16d.dir/build
+Building C object CMakeFiles/cmTC_af16d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_af16d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af16d
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af16d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af16d.dir/CheckFunctionExists.c.o  -o cmTC_af16d -lnsl 
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_af16d] Error 1
+make: *** [cmTC_af16d/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66366/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_66366.dir/build.make CMakeFiles/cmTC_66366.dir/build
+Building C object CMakeFiles/cmTC_66366.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_66366.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_66366
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66366.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=gethostbyname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_66366.dir/CheckFunctionExists.c.o  -o cmTC_66366 -lsocket 
+ld: library not found for -lsocket
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_66366] Error 1
+make: *** [cmTC_66366/fast] Error 2
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45a67/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45a67.dir/build.make CMakeFiles/cmTC_45a67.dir/build
+Building C object CMakeFiles/cmTC_45a67.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_45a67.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45a67
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45a67.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45a67.dir/CheckFunctionExists.c.o  -o cmTC_45a67 -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_45a67] Error 1
+make: *** [cmTC_45a67/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1f57/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c1f57.dir/build.make CMakeFiles/cmTC_c1f57.dir/build
+Building C object CMakeFiles/cmTC_c1f57.dir/HAVE_MALLOC_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c1f57.dir/HAVE_MALLOC_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c1f57.dir/HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_c1f57/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c931b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c931b.dir/build.make CMakeFiles/cmTC_c931b.dir/build
+Building C object CMakeFiles/cmTC_c931b.dir/HAVE_SOCKET_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c931b.dir/HAVE_SOCKET_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_SOCKET_H.c:2:10: fatal error: 'socket.h' file not found
+#include <socket.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c931b.dir/HAVE_SOCKET_H.c.o] Error 1
+make: *** [cmTC_c931b/fast] Error 2
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files stropts.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7fc0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7fc0.dir/build.make CMakeFiles/cmTC_f7fc0.dir/build
+Building C object CMakeFiles/cmTC_f7fc0.dir/HAVE_STROPTS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f7fc0.dir/HAVE_STROPTS_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c:2:10: fatal error: 'stropts.h' file not found
+#include <stropts.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f7fc0.dir/HAVE_STROPTS_H.c.o] Error 1
+make: *** [cmTC_f7fc0/fast] Error 2
+
+Source:
+/* */
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a69e7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a69e7.dir/build.make CMakeFiles/cmTC_a69e7.dir/build
+Building C object CMakeFiles/cmTC_a69e7.dir/HAVE_WINSOCK2_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_a69e7.dir/HAVE_WINSOCK2_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a69e7.dir/HAVE_WINSOCK2_H.c.o] Error 1
+make: *** [cmTC_a69e7/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d2c1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d2c1.dir/build.make CMakeFiles/cmTC_0d2c1.dir/build
+Building C object CMakeFiles/cmTC_0d2c1.dir/HAVE_WS2TCPIP_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_0d2c1.dir/HAVE_WS2TCPIP_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:2:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0d2c1.dir/HAVE_WS2TCPIP_H.c.o] Error 1
+make: *** [cmTC_0d2c1/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01ff0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01ff0.dir/build.make CMakeFiles/cmTC_01ff0.dir/build
+Building C object CMakeFiles/cmTC_01ff0.dir/HAVE_WINSOCK_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_01ff0.dir/HAVE_WINSOCK_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK_H.c:2:10: fatal error: 'winsock.h' file not found
+#include <winsock.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_01ff0.dir/HAVE_WINSOCK_H.c.o] Error 1
+make: *** [cmTC_01ff0/fast] Error 2
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d82/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75d82.dir/build.make CMakeFiles/cmTC_75d82.dir/build
+Building C object CMakeFiles/cmTC_75d82.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_75d82.dir/HAVE_WINDOWS_H.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_75d82.dir/HAVE_WINDOWS_H.c.o] Error 1
+make: *** [cmTC_75d82/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc77a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dc77a.dir/build.make CMakeFiles/cmTC_dc77a.dir/build
+Building C object CMakeFiles/cmTC_dc77a.dir/src.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_TYPE_SOCKET -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_dc77a.dir/src.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/src.c:26:4: error: use of undeclared identifier 'SOCKET'
+                        SOCKET var_exists;
+                        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dc77a.dir/src.c.o] Error 1
+make: *** [cmTC_dc77a/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			return 0;
+		}
+	
+Determining if the MSG_NOSIGNAL exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e31d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e31d.dir/build.make CMakeFiles/cmTC_4e31d.dir/build
+Building C object CMakeFiles/cmTC_4e31d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_4e31d.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'MSG_NOSIGNAL'
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4e31d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_4e31d/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c19c6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c19c6.dir/build.make CMakeFiles/cmTC_c19c6.dir/build
+Building C object CMakeFiles/cmTC_c19c6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c19c6.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'SO_NONBLOCK'
+  return ((int*)(&SO_NONBLOCK))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c19c6.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_c19c6/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f605d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f605d.dir/build.make CMakeFiles/cmTC_f605d.dir/build
+Building C object CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'bitncmp'
+  return ((int*)(&bitncmp))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f605d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f605d/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closesocket exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9e2d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d9e2d.dir/build.make CMakeFiles/cmTC_d9e2d.dir/build
+Building C object CMakeFiles/cmTC_d9e2d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d9e2d.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'closesocket'
+  return ((int*)(&closesocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d9e2d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d9e2d/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4afb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b4afb.dir/build.make CMakeFiles/cmTC_b4afb.dir/build
+Building C object CMakeFiles/cmTC_b4afb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b4afb.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'CloseSocket'
+  return ((int*)(&CloseSocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b4afb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_b4afb/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa919/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fa919.dir/build.make CMakeFiles/cmTC_fa919.dir/build
+Building C object CMakeFiles/cmTC_fa919.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_fa919.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'getservbyport_r'; did you mean 'getservbyport'?
+  return ((int*)(&getservbyport_r))[argc];
+                  ^~~~~~~~~~~~~~~
+                  getservbyport
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/netdb.h:287:17: note: 'getservbyport' declared here
+struct servent  *getservbyport(int, const char *);
+                 ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fa919.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_fa919/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_038c8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_038c8.dir/build.make CMakeFiles/cmTC_038c8.dir/build
+Building C object CMakeFiles/cmTC_038c8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_038c8.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'ioctlsocket'
+  return ((int*)(&ioctlsocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_038c8.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_038c8/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d79a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1d79a.dir/build.make CMakeFiles/cmTC_1d79a.dir/build
+Building C object CMakeFiles/cmTC_1d79a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1d79a.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'IoctlSocket'
+  return ((int*)(&IoctlSocket))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1d79a.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_1d79a/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f260/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f260.dir/build.make CMakeFiles/cmTC_7f260.dir/build
+Building C object CMakeFiles/cmTC_7f260.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_7f260.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strcmpi'; did you mean 'strcmp'?
+  return ((int*)(&strcmpi))[argc];
+                  ^~~~~~~
+                  strcmp
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/string.h:77:6: note: 'strcmp' declared here
+int      strcmp(const char *__s1, const char *__s2);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7f260.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_7f260/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d997d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d997d.dir/build.make CMakeFiles/cmTC_d997d.dir/build
+Building C object CMakeFiles/cmTC_d997d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d997d.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'stricmp'
+  return ((int*)(&stricmp))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d997d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d997d/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_438ad/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_438ad.dir/build.make CMakeFiles/cmTC_438ad.dir/build
+Building C object CMakeFiles/cmTC_438ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_438ad.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strncmpi'; did you mean 'strncmp'?
+  return ((int*)(&strncmpi))[argc];
+                  ^~~~~~~~
+                  strncmp
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/string.h:84:6: note: 'strncmp' declared here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_438ad.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_438ad/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15576/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_15576.dir/build.make CMakeFiles/cmTC_15576.dir/build
+Building C object CMakeFiles/cmTC_15576.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_DARWIN_C_SOURCE  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_15576.dir/CheckSymbolExists.c.o   -c /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: use of undeclared identifier 'strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&strnicmp))[argc];
+                  ^~~~~~~~
+                  strncmp
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/string.h:84:6: note: 'strncmp' declared here
+int      strncmp(const char *__s1, const char *__s2, size_t __n);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_15576.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_15576/fast] Error 2
+
+File /Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

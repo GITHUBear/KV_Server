@@ -1,0 +1,13 @@
+prefix=/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out
+exec_prefix=/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out
+libdir=/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/lib
+sharedlibdir=/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/lib
+includedir=/Users/dimdew/KV/rust_learn/KV_Server/kvserver/target/debug/build/grpcio-sys-94d45a5d94b9113d/out/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
